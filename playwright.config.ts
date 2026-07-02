@@ -31,19 +31,14 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
 
-    headless: false,
+
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome'],
-        launchOptions: {
-          executablePath: '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser',
-        },
-      },
+      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
 
 
