@@ -17,7 +17,7 @@ Manual and automated testing project targeting [Sauce Demo](https://www.saucedem
 ## Project structure
 
 - `tests/example.spec.ts` — Automated test suite (TC-001 to TC-016)
-- `test-plan.pdf` — Manual test plan and results
+- `test-plan.md` — Manual test plan and results
 - `playwright.config.ts` — Playwright configuration
 - `.github/workflows/` — CI pipeline configuration
 
