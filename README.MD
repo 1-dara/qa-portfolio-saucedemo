@@ -1,3 +1,5 @@
+![Tests](https://github.com/1-dara/qa-test-saucedemo/actions/workflows/playwright.yml/badge.svg)
+
 # QA Portfolio: Sauce Demo Test Automation
 
 Manual and automated testing project targeting [Sauce Demo](https://www.saucedemo.com), a demo e-commerce site built for QA practice.
